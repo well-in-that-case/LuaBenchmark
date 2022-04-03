@@ -1,0 +1,24 @@
+LuaBenchmark || Running benchmark -> (LuaJIT 2.1.0-beta3)
+=========================================================
+String Operations:
+	Performed 'Length Calculation'
+		Time: 0.017s
+		Memory Offset: 0.75% || (start) 40.69kb vs (now) 40.99kb
+		Iteration Count: 1,000,000
+
+	Performed 'Substring Generation'
+		Time: 0.018s
+		Memory Offset: 1.49% || (start) 41.36kb vs (now) 41.97kb
+		Iteration Count: 1,000,000
+
+Integral Operations:
+	Performed 'Multiplication'
+		Time: 0.14s
+		Memory Offset: 0.37% || (start) 42.29kb vs (now) 42.44kb
+		Iteration Count: 10,000,000
+
+Table Operations:
+	Performed '1M Dead Table Test'
+		Time: 0.006s
+		Memory Offset: 4.86% || (start) 42.85kb vs (now) 44.93kb
+		Iteration Count: 10
